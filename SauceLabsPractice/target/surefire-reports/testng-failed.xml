@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [sauce labs automation test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" name="Sauce test- firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="66"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="com.HarinderKaur.SauceLabsPractice.SauceLabsExample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.HarinderKaur.SauceLabsPractice.SauceLabsExample -->
+    </classes>
+  </test> <!-- Sauce test- firefox(failed) -->
+</suite> <!-- Failed suite [sauce labs automation test] -->

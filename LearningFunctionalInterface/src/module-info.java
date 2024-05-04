@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kaurh
+ *
+ */
+module LearningFunctionalInterface {
+}

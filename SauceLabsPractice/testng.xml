@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="sauce labs automation test">
+
+
+	<test name="Sauce test- firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="66" />
+		<parameter name="platform" value="Windows 11" />
+
+		<classes>
+			<class
+				name="com.HarinderKaur.SauceLabsPractice.SauceLabsExample" />
+		</classes>
+
+	</test>
+
+
+	
+	<!-- Test -->
+</suite> <!-- Suite -->

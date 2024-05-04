@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 71.115 s <<< FAILURE! - in TestSuite
+verifyLogin(com.HarinderKaur.SauceLabsPractice.SauceLabsExample)  Time elapsed: 58.709 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: input[name='username']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN11', ip: '10.100.36.238', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofile.LKOWwemBOsWy, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=66.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=3192.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: c884974c-f1d2-4373-b3aa-79c9683bf68f
+*** Element info: {Using=css selector, value=input[name='username']}
+Command duration or timeout: 30.52 seconds
+	at com.HarinderKaur.SauceLabsPractice.SauceLabsExample.verifyLogin(SauceLabsExample.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: input[name='username']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAUCE-WIN11', ip: '10.100.36.238', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sauce\AppData\Local\Temp\rust_mozprofile.LKOWwemBOsWy, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=66.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=3192.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: c884974c-f1d2-4373-b3aa-79c9683bf68f
+*** Element info: {Using=css selector, value=input[name='username']}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.2.0', revision: '8c03df6b79', time: '2017-02-23 10:51:31 +0000'
+System info: host: 'HARINDER', ip: '192.168.1.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EventFiringWebDriver
+

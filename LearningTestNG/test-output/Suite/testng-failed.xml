@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.learn.testNG.FirstClass">
+        <methods>
+          <include name="installedTestNG"/>
+          <include name="openBrowser"/>
+          <include name="doSomething"/>
+          <include name="test2"/>
+          <include name="closeBrowser"/>
+          <include name="installTestNG"/>
+          <include name="test3"/>
+          <include name="doSomethingBeforeClosing"/>
+        </methods>
+      </class> <!-- com.learn.testNG.FirstClass -->
+      <class name="com.learn.testNG.SecondClass">
+        <methods>
+          <include name="doSomething"/>
+          <include name="installedTestNG"/>
+          <include name="openBrowser"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="installTestNG"/>
+        </methods>
+      </class> <!-- com.learn.testNG.SecondClass -->
+      <class name="com.learn.testNG.ThirdClass">
+        <methods>
+          <include name="installedTestNG"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="installTestNG"/>
+          <include name="doSomething"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.learn.testNG.ThirdClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
